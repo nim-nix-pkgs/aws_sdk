@@ -1,0 +1,241 @@
+{
+  "nodes": {
+    "aws_sdk-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "sph": "sph",
+        "src-aws_sdk-master": "src-aws_sdk-master",
+        "stringinterpolation": "stringinterpolation"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647312004,
+        "narHash": "sha256-zYCRMyvcsQPQt2DpWr31yCWBcJvqnKxyeSJVzBwCrIU=",
+        "owner": "nim-nix-pkgs",
+        "repo": "aws_sdk",
+        "rev": "5ad3c903e1935cb1e185fc580e8d5b3e018fdf6d",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "aws_sdk",
+        "type": "github"
+      }
+    },
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1646967037,
+        "narHash": "sha256-BoEqkGzLVnFICrF15wczZJrfF1vMVngRzF5cEgFzdzU=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "028e7596fdb918b72a295d220d48417ab2f5dfd1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-+8mazL4KLh6VltXYJc5+QFA5Q1i+Uh/TadRl9/+qcx8=",
+        "path": "/nix/store/gddrvlqs5qf1bp3kc80gp3qg5vm8kj76-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "aws_sdk-master": "aws_sdk-master",
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs"
+      }
+    },
+    "sph": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "aws_sdk-master",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "aws_sdk-master",
+          "nixpkgs"
+        ],
+        "sph-master": "sph-master"
+      },
+      "locked": {
+        "lastModified": 1647399726,
+        "narHash": "sha256-EltawZ1QGGPjHIcoK1uHG40QtlcCfupYDfozFYulb9A=",
+        "owner": "nim-nix-pkgs",
+        "repo": "sph",
+        "rev": "124f04e1e312742ef3d7183c1e1145b49b37dfef",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "sph",
+        "type": "github"
+      }
+    },
+    "sph-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "aws_sdk-master",
+          "sph",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "aws_sdk-master",
+          "sph",
+          "nixpkgs"
+        ],
+        "src-sph-master": "src-sph-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647112775,
+        "narHash": "sha256-3Xs3knrevyRBezY6u6FhhWemnkzUmB05/JYEWPHXpz4=",
+        "owner": "nim-nix-pkgs",
+        "repo": "sph",
+        "rev": "c58573e1f76e712fbbcf4815eb4b5f925fd52ec4",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "sph",
+        "type": "github"
+      }
+    },
+    "src-aws_sdk-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1539899537,
+        "narHash": "sha256-/eQCqIyraRyhbPUtT2YOSTkl/uEwt0F9j9pjSUw/tos=",
+        "owner": "aidansteele",
+        "repo": "aws_sdk.nim",
+        "rev": "1570861e5769daaa89aadd6f45e88bd8acddb6c5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "aidansteele",
+        "ref": "refs/heads/master",
+        "repo": "aws_sdk.nim",
+        "type": "github"
+      }
+    },
+    "src-sph-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1539987858,
+        "narHash": "sha256-z8TYQOP8crwduhCTvy33GMkduzVfCsftil96DVKldzo=",
+        "owner": "aidansteele",
+        "repo": "sph",
+        "rev": "04c78a0005a83af3f8956f1994b7c01df56639aa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "aidansteele",
+        "ref": "refs/heads/master",
+        "repo": "sph",
+        "type": "github"
+      }
+    },
+    "src-stringinterpolation-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1434886518,
+        "narHash": "sha256-/YGsehtfbvUReeQM+gmzzMKhh1nHMY8fuazg2FU0c3k=",
+        "owner": "bluenote10",
+        "repo": "nim-stringinterpolation",
+        "rev": "4e07f8052f83cce9056a3a3e8b9fcb4640c0dd29",
+        "type": "github"
+      },
+      "original": {
+        "owner": "bluenote10",
+        "ref": "refs/heads/master",
+        "repo": "nim-stringinterpolation",
+        "type": "github"
+      }
+    },
+    "stringinterpolation": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "aws_sdk-master",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "aws_sdk-master",
+          "nixpkgs"
+        ],
+        "stringinterpolation-master": "stringinterpolation-master"
+      },
+      "locked": {
+        "lastModified": 1647399769,
+        "narHash": "sha256-l509QTHS6w1XmQ3/esGppgWIMvTd8ogl8QKh4jd1bDQ=",
+        "owner": "nim-nix-pkgs",
+        "repo": "stringinterpolation",
+        "rev": "da1a47679ab410962f08f332a9a6801c00d307b9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "stringinterpolation",
+        "type": "github"
+      }
+    },
+    "stringinterpolation-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "aws_sdk-master",
+          "stringinterpolation",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "aws_sdk-master",
+          "stringinterpolation",
+          "nixpkgs"
+        ],
+        "src-stringinterpolation-master": "src-stringinterpolation-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647311458,
+        "narHash": "sha256-CvGvylvzG4OGbQLU7M636o9X4cg2Cbceqr9ZY0TMs9w=",
+        "owner": "nim-nix-pkgs",
+        "repo": "stringinterpolation",
+        "rev": "fac43fc762735a6518bec403d473a2b4c3193262",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "stringinterpolation",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
