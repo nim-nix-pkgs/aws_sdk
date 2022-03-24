@@ -49,42 +49,15 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "sph-master": "sph-master"
-      },
-      "locked": {
-        "lastModified": 1648108117,
-        "narHash": "sha256-D+NeXKTzf3qApFiIxTl9wcx+mxS+KNlKd0Yn6TPyob4=",
-        "owner": "nim-nix-pkgs",
-        "repo": "sph",
-        "rev": "cfdb0df8fc4c62458a791564dc1f1c8538c06442",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "sph",
-        "type": "github"
-      }
-    },
-    "sph-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "sph",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "sph",
-          "nixpkgs"
-        ],
         "src-sph-master": "src-sph-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648108117,
-        "narHash": "sha256-D+NeXKTzf3qApFiIxTl9wcx+mxS+KNlKd0Yn6TPyob4=",
+        "lastModified": 1648163623,
+        "narHash": "sha256-QUjaf7bGjkg4l8W0b+HqLABidEQABWbyyMR0rtmkuz8=",
         "owner": "nim-nix-pkgs",
         "repo": "sph",
-        "rev": "cfdb0df8fc4c62458a791564dc1f1c8538c06442",
+        "rev": "68a861271a7c017eac995eb4114f1fc719ead1e0",
         "type": "github"
       },
       "original": {
@@ -154,42 +127,15 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "stringinterpolation-master": "stringinterpolation-master"
-      },
-      "locked": {
-        "lastModified": 1648108138,
-        "narHash": "sha256-JWYvf+W//DrwLuzfxdBP3n4rpyDw3rSvcK8494qN0pw=",
-        "owner": "nim-nix-pkgs",
-        "repo": "stringinterpolation",
-        "rev": "5be8d5241a7f8c20823a45e4510bac4cbc4acdfc",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "stringinterpolation",
-        "type": "github"
-      }
-    },
-    "stringinterpolation-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "stringinterpolation",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "stringinterpolation",
-          "nixpkgs"
-        ],
         "src-stringinterpolation-master": "src-stringinterpolation-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648108138,
-        "narHash": "sha256-JWYvf+W//DrwLuzfxdBP3n4rpyDw3rSvcK8494qN0pw=",
+        "lastModified": 1648163647,
+        "narHash": "sha256-y7WbNumlHBTjwj19lOfFPQxwM3tLo1nDHsrXIS3zlcI=",
         "owner": "nim-nix-pkgs",
         "repo": "stringinterpolation",
-        "rev": "5be8d5241a7f8c20823a45e4510bac4cbc4acdfc",
+        "rev": "b04853cfd8715b7fb20407035f595195e2cd35ce",
         "type": "github"
       },
       "original": {
