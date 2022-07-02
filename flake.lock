@@ -14,11 +14,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1653703180,
-        "narHash": "sha256-n4gNg79E53utSYIuvDmf01ICNAujT00jBhgTDBhCgeM=",
+        "lastModified": 1656302073,
+        "narHash": "sha256-K9hvFcObzV16fxN65+NvImZEPO0RAQsT7SM4Hf+u6u0=",
         "owner": "nim-nix-pkgs",
         "repo": "aws_sdk",
-        "rev": "9fa0b9f084f5e735f6af37bbaa8922481b944758",
+        "rev": "39a1c2ca6d10ca8d4efe99a7f8cc198caa66f613",
         "type": "github"
       },
       "original": {
